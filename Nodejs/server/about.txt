@@ -1,0 +1,15 @@
+initialize project with ***npm init***
+
+
+require http
+
+create server using http.createServer with callback function including req, res parameter.
+
+properties are
+
+*setHeader('Content-type', 'application/json' or 'text/html'); we can add other properties also
+*res.end
+
+*req.url is used to find the request parameter
+
+
