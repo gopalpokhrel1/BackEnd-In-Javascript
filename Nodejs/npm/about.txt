@@ -1,0 +1,58 @@
+to create package json we use ...npm init.... command
+
+for use of npm it is necessary to located package json file in our project
+
+...............npm init -y............ is use for set default value in package json
+
+
+ctrl + c is used to terminate server in node js  .
+
+........................................................................
+
+to install nodemon = npm install nodemon --save-dev,
+
+in script section "start":"nodemon filename"
+
+to run these code npm run start;
+........................................................................
+
+
+for global installation of nodemon following methods are required:
+
+1. npm install --global nodemon
+2.for run = nodemon filename  // npx nodemon filename
+
+.............................................................
+
+
+~ denotes the updates only patch not major and minor
+^ denotes the minor updates not major
+* denotes the major updates
+
+express: ^4.18.1
+
+where 4 is major updates
+    18 is minor updates
+    1 is patch updates
+
+................................................................
+
+
+dev dependencies are related to the project code
+
+................................................................
+
+**********npm outdated******* is use to check the outdated version of content in project
+**********npm update********* is use to update the content
+
+
+
+.................................................................
+
+
+for uninstall we use:
+
+***npm uninstall content*******
+
+
+..................................................................

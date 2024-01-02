@@ -1,0 +1,14 @@
+fs module is inbuilt module in node;
+
+for use this method we use following steps;
+1.require('fs')= const fs = require('fs');
+
+fs.(methodname)readFileSync('pathname', 'encoding')  this is synchoronous mehtod.
+
+fs.readFile('pathname', 'encoding', callback)  this async method it takes callback function.
+
+callback always takes 2 parameter err and content , the first parameter is always err;
+
+writeFile , appendFile  etc are also methods of fs module.
+
+fs.writeFile('pathname', data to be inserted, callback);

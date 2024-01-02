@@ -1,0 +1,19 @@
+exports.sum =()...
+exports.diff=()..
+this elements are common js format;
+
+......................................................
+
+in Ecma Script we use export module in this way:
+
+const sum = ()=>{..}
+const diff = ()=>{...}
+
+export {sum, diff} // shorthand property of object
+
+to import for these file we use:
+import{sum, diff} from "./file name"
+
+Note : for use import and export module we use "type":"module" in package json.
+
+...................................................................................
