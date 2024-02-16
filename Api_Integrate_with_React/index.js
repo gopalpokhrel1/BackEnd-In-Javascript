@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const mongoose = require('mongoose');
 const productRouter = require('./routes/products');
 const cors = require('cors');
+const path = require('path');
 
 dotenv.config();
 
@@ -24,5 +25,9 @@ server.use(express.json());
 server.use(cors());
 
 server.use('/', productRouter.routes);
+server.use(express.static(path.resolve(__dirname, 'dist')));
+server.use('*', (req,res)=>{
+    res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+})
 
 server.listen(port, ()=> console.log('server started'));
